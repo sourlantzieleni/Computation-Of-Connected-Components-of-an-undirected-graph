@@ -9,16 +9,16 @@ compile:
 
 run: compile
 	@echo "===== SERIAL ====="
-	./seirial ../data/com-Orkut.mtx
+	./seirial ../data/mycielskian5.mtx
 
 	@echo "===== OPENMP ====="
-	./parallel_MP ../data/com-Orkut.mtx
+	./parallel_MP ../data/mycielskian5.mtx
 
 	@echo "===== OPENCILK ====="
-	CILK_NWORKERS=16 ./parallel_Cilk ../data/com-Orkut.mtx
+	CILK_NWORKERS=16 ./parallel_Cilk ../data/mycielskian5.mtx
 
 	@echo "===== PTHREADS ====="
-	./parallel_pthreads ../data/com-Orkut.mtx
+	./parallel_pthreads ../data/mycielskian5.mtx
 
 clean:
 	rm -f seirial

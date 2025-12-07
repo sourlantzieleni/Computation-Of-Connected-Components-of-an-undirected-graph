@@ -25,3 +25,7 @@ serial,1,0.758716,../data/com-Orkut.mtx,3072441
 openmp,16,0.319924,../data/com-Orkut.mtx,3072441
 opencilk,16,0.482850,../data/com-Orkut.mtx,3072441
 pthreads,16,0.527385,../data/com-Orkut.mtx,3072441
+serial,1,0.000000,../data/mycielskian5.mtx,23
+openmp,16,0.000327,../data/mycielskian5.mtx,23
+opencilk,16,0.000721,../data/mycielskian5.mtx,23
+pthreads,16,0.000840,../data/mycielskian5.mtx,23
